@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Intro component with sign up form</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+  <main role="main">
+
+    <div class="intro">
+      <h1>Learn to code by watching others</h1>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.</p>
+    </div>
+
+    <div class="info">
+
+      <div class="try">Try it free 7 days then $20/mo. thereafter</div>
+
+      <form action="" class="form">
+
+        <label for="first-name">
+          <input type="text" id="first-name" required placeholder="First Name">
+          <span class="span first-name"></span>
+        </label>
+
+
+        <label for="last-name">
+          <input type="text" id="last-name"  required placeholder="Last Name">
+          <span class="span last-name"></span>
+        </label>
+
+        <label for="email">
+          <input type="email" id="email"  required placeholder="Email Address">
+          <span class="span email"></span>
+        </label>
+
+        <label for="password">
+          <input type="password" id="password" required placeholder="Password" autocomplete="new-password">
+          <span class="span pass"></span>
+        </label>
+
+        <input type="submit" value="Claim your free trial" class="submit">
+
+        <p class="terms">By clicking the button, you are agreeing to our <span class="terms-services">Terms and
+            Services</span></p>
+
+      </form>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Eric Miller</a>.
+    </p>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
